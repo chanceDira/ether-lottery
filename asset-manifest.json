@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/ether-lottery/static/css/main.b62a1f12.chunk.css",
-    "main.js": "/ether-lottery/static/js/main.8144891a.chunk.js",
-    "main.js.map": "/ether-lottery/static/js/main.8144891a.chunk.js.map",
+    "main.js": "/ether-lottery/static/js/main.40c04582.chunk.js",
+    "main.js.map": "/ether-lottery/static/js/main.40c04582.chunk.js.map",
     "runtime-main.js": "/ether-lottery/static/js/runtime-main.d43499aa.js",
     "runtime-main.js.map": "/ether-lottery/static/js/runtime-main.d43499aa.js.map",
-    "static/js/2.05ad24c8.chunk.js": "/ether-lottery/static/js/2.05ad24c8.chunk.js",
-    "static/js/2.05ad24c8.chunk.js.map": "/ether-lottery/static/js/2.05ad24c8.chunk.js.map",
+    "static/js/2.7bb7dfd9.chunk.js": "/ether-lottery/static/js/2.7bb7dfd9.chunk.js",
+    "static/js/2.7bb7dfd9.chunk.js.map": "/ether-lottery/static/js/2.7bb7dfd9.chunk.js.map",
     "index.html": "/ether-lottery/index.html",
-    "precache-manifest.9921b27c6efdf1f9401f39731ff53791.js": "/ether-lottery/precache-manifest.9921b27c6efdf1f9401f39731ff53791.js",
+    "precache-manifest.098ad593b111ddb92fe815197f3fe3b6.js": "/ether-lottery/precache-manifest.098ad593b111ddb92fe815197f3fe3b6.js",
     "service-worker.js": "/ether-lottery/service-worker.js",
     "static/css/main.b62a1f12.chunk.css.map": "/ether-lottery/static/css/main.b62a1f12.chunk.css.map",
-    "static/js/2.05ad24c8.chunk.js.LICENSE.txt": "/ether-lottery/static/js/2.05ad24c8.chunk.js.LICENSE.txt",
+    "static/js/2.7bb7dfd9.chunk.js.LICENSE.txt": "/ether-lottery/static/js/2.7bb7dfd9.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/ether-lottery/static/media/wallpaper.7ec1e232.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d43499aa.js",
-    "static/js/2.05ad24c8.chunk.js",
+    "static/js/2.7bb7dfd9.chunk.js",
     "static/css/main.b62a1f12.chunk.css",
-    "static/js/main.8144891a.chunk.js"
+    "static/js/main.40c04582.chunk.js"
   ]
 }
