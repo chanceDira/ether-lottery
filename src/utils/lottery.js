@@ -1,19 +1,26 @@
 import web3 from "./web3";
 
-const address = "0xe65c7c531dbe2c4a23c3ea9bb643e2e987c26b18";
+const address = "0x52163939DF97C31D65A1d2E8052fc5cF49Dd1374";
 
 const abi = [
-	{
-		"inputs": [],
-		"stateMutability": "nonpayable",
-		"type": "constructor"
-	},
 	{
 		"inputs": [],
 		"name": "enter",
 		"outputs": [],
 		"stateMutability": "payable",
 		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "pickWinner",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
 	},
 	{
 		"inputs": [],
@@ -119,13 +126,6 @@ const abi = [
 		"type": "function"
 	},
 	{
-		"inputs": [],
-		"name": "pickWinner",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
 		"inputs": [
 			{
 				"internalType": "uint256",
@@ -148,3 +148,5 @@ const abi = [
 
 
 export default new web3.eth.Contract(abi, address);
+
+//https://ropsten.etherscan.io/address/0x52163939df97c31d65a1d2e8052fc5cf49dd1374

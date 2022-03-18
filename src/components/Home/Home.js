@@ -7,7 +7,7 @@ import lottery from "../../utils/lottery";
 export default function Home() {
   const [message, setMessage] = useState("");
   const [amount, setAmount] = useState("");
-  const [length, setLength] = useState("");
+  const [length, setLength] = useState(0);
   const [role, setRole] = useState("hidden");
 
   const manager = "0x87ad11C93Cd39Dd6BdA97e093de85Fee8506e083";
