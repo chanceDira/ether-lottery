@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa6d113cc2ac2db107d4075b0e6d7c44",
+    "revision": "b3492b9febc54239ca92a8dbe86662cb",
     "url": "/ether-lottery/index.html"
   },
   {
-    "revision": "f6a852f082f1e218168c",
+    "revision": "a44adf0bd650fe2b9dd3",
     "url": "/ether-lottery/static/css/main.b62a1f12.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ether-lottery/static/js/2.05ad24c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f6a852f082f1e218168c",
-    "url": "/ether-lottery/static/js/main.1df229e0.chunk.js"
+    "revision": "a44adf0bd650fe2b9dd3",
+    "url": "/ether-lottery/static/js/main.8144891a.chunk.js"
   },
   {
     "revision": "1ad8422dde33307203be",
