@@ -14,8 +14,6 @@ export default function Home() {
 
   const gettingPlayers = async () => {
     const players = await lottery.methods.getPlayers().call();
-    console.log("Players: ", players);
-    console.log("length: ", players.length);
     let accounts = await window.ethereum.enable();
     setLength(players.length);
     if (
@@ -24,7 +22,10 @@ export default function Home() {
       setRole("hidden");
     }
 
-    console.log("role: ", role);
+    if(players.length == 5) {
+      handleOnClick()
+    } 
+
   };
 
   useEffect(() => {
@@ -48,8 +49,8 @@ export default function Home() {
     });
     setMessage("Successfully registered among players.");
   };
-  const handleOnClick = async (e) => {
-    e.preventDefault();
+  const handleOnClick = async () => {
+    // e.preventDefault();
     let accounts;
     try {
       accounts = await window.ethereum.enable();
@@ -57,17 +58,12 @@ export default function Home() {
       console.log(error);
     }
 
-    if (
-      accounts[0].toString().toLowerCase() == manager.toString().toLowerCase()
-    ) {
       setMessage("Selecting winner among all players, please wait ... maximum one minute.");
       await lottery.methods.pickWinner().send({
         from: accounts[0],
       });
       setMessage("The winner is found.");
-    } else {
-      setMessage("You have to be manager silly");
-    }
+    
   };
 
   return (
@@ -93,15 +89,15 @@ export default function Home() {
               Enter
             </button>
           </form>
-          <button
+          {/* <button
             className={`${role} bg-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded`}
-            onClick={(e) => handleOnClick(e)}
           >
             Pick winner
-          </button>
+          </button> */}
           <h1 className="text-white font-bold"> {message}</h1>
 
           <p className="text-white font-bold">Now we have {length} players in this lottery circle.</p>
+          <p className="text-white font-bold p-4">When the number of players reach 5 we choose the winner.</p>
         </div>
       </div>
     </div>
